@@ -1,0 +1,28 @@
+$color:black;
+
+body{
+    background-color: $color;
+}
+div{
+    width:330px;
+    height:440px;
+    overflow:auto;
+    text-align: center;
+    line-height: 4;
+}
+.logo{
+    width: 150px;
+}
+.usr{
+    width: 70px;
+}
+.btnInicioSesion, .btnRegistro{
+    font-family: 'Broadway Regular';
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #41B6E6;
+}
+.btnInicioSesion:hover, .btnRegistro:hover{
+    background-color: #DB3EB1;
+}
