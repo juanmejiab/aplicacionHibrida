@@ -1,0 +1,39 @@
+$color:black;
+body{
+    background-color: $color;
+}
+div{
+    width:330px;
+    height:440px;
+    overflow:auto;
+    text-align: center;
+    line-height: 2;
+}
+.logo{
+    width: 150px;
+}
+.usr{
+    margin-top: 30px;
+    width: 70px;
+}
+h2{
+    color: white;
+    font-family: 'Broadway Regular';
+}
+input{
+    font-family: 'Broadway Regular';
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+}
+.btnInicioSesion{
+    margin-top: 15px;
+    font-family: 'Broadway Regular';
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #41B6E6;
+}
+.btnInicioSesion:hover{
+    background-color: #DB3EB1;
+}
