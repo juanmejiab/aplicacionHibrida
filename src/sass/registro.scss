@@ -1,0 +1,40 @@
+$color:black;
+body{
+    background-color: $color;
+}
+div{
+    width:330px;
+    height:440px;
+    overflow:auto;
+    text-align: center;
+    line-height: 2;
+}
+img{
+    width: 150px;
+}
+h2{
+    color: white;
+    font-family: 'Broadway Regular';
+}
+p{
+    color: white;
+    font-family: 'Broadway Regular';
+    font-size: 13;
+    text-align: center;
+}
+input{
+    font-family: 'Broadway Regular';
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+}
+.btnRegistrarse{
+    font-family: 'Broadway Regular';
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #41B6E6;
+}
+.btnRegistrarse:hover{
+    background-color: #DB3EB1;
+}
