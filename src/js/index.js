@@ -1,7 +1,5 @@
-let secciones = ["index.html", "inicio.html", "login.html", "regitro.html", "opciones.html"]
+let secciones = ["index.html", "inicio.html", "login.html", "registro.html", "opciones.html"]
 let btnRegistro, btnInicioSesion;
-let contador 
-
 
 window.onload = init;
 
@@ -9,6 +7,7 @@ function init(){
     inicializarVariables();
     setTimeout(carga,2500);
     crearEventos();
+    enrutador();
 }
 
 function carga(){
