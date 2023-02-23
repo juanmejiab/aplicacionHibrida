@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+}
+
+div {
+  width: 330px;
+  height: 500px;
+  text-align: center;
+  line-height: 2;
+  overflow: auto;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.usr {
+  width: 70px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #41b6e6;
+  font-family: Broadway Regular;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  border-radius: 15px;
+  font-family: Broadway Regular;
+}
+
+.btnInicioSesion {
+  width: 200px;
+  height: 30px;
+  background-color: #41b6e6;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-family: Broadway Regular;
+}
+
+.btnInicioSesion:hover {
+  background-color: #db3eb1;
+}
+
+/*# sourceMappingURL=login.330f04c9.css.map */

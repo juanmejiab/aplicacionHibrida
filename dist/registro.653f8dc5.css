@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+}
+
+div {
+  width: 330px;
+  height: 500px;
+  text-align: center;
+  line-height: 2;
+  overflow: auto;
+}
+
+img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #41b6e6;
+  font-family: Broadway Regular;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  font-family: Broadway Regular;
+  font-size: 13px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  border-radius: 15px;
+  font-family: Broadway Regular;
+}
+
+.btnRegistrarse {
+  width: 200px;
+  height: 30px;
+  background-color: #41b6e6;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-family: Broadway Regular;
+}
+
+.btnRegistrarse:hover {
+  background-color: #db3eb1;
+}
+
+/*# sourceMappingURL=registro.653f8dc5.css.map */

@@ -1,0 +1,31 @@
+body {
+  background-color: #000;
+}
+
+div {
+  width: 330px;
+  height: 500px;
+  text-align: center;
+  line-height: 4;
+  overflow: auto;
+}
+
+img {
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.btnReservaMesa, .btnContacto {
+  width: 200px;
+  height: 50px;
+  background-color: #41b6e6;
+  border-radius: 15px;
+  font-family: Broadway Regular;
+}
+
+.btnReservaMesa:hover, .btnContacto:hover {
+  background-color: #db3eb1;
+}
+
+/*# sourceMappingURL=opciones.34ce5d03.css.map */
