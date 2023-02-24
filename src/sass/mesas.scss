@@ -1,0 +1,51 @@
+$color:black;
+body{
+    background-color: $color;
+}
+div{
+    width:330px;
+    overflow:auto;
+    text-align: center;
+    line-height: 2;
+}
+.caja{
+    background-color: #41B6E6;
+    width: 200px;
+    height: 280px;
+    margin-left: 65px;
+    border-radius: 10px;
+}
+img{
+    margin-top: 20px;
+    width: 200px;
+}
+h2{
+    color: #41B6E6;
+    font-family: 'Broadway Regular';
+}
+p{
+    color: #DB3EB1;
+    font-family: 'Broadway Regular';
+}
+input{
+    font-family: 'Broadway Regular';
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+}
+button{
+    border-radius: 15px;
+    height: 30px;
+    width: 50px;
+    margin-top: 20px;
+    font-size: 20;
+    font-family: 'Broadway Regular';
+}
+.btnResevarMesa{
+    background-color: #41B6E6;
+    margin-left: 65px;
+    width: 200px;
+}
+button:hover, .btnResevarMesa:hover{
+    background-color: #DB3EB1;
+}
