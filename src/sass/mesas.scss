@@ -1,6 +1,7 @@
 $color:black;
 body{
     background-color: $color;
+    font-family: 'Broadway Regular';
 }
 div{
     width:330px;
@@ -11,42 +12,67 @@ div{
 .caja{
     background-color: #41B6E6;
     width: 200px;
-    height: 280px;
+    height: 293px;
     margin-left: 65px;
     border-radius: 10px;
 }
 img{
     margin-top: 20px;
     width: 200px;
+    cursor: pointer;
 }
 h2{
     color: #41B6E6;
-    font-family: 'Broadway Regular';
 }
 p{
     color: #DB3EB1;
-    font-family: 'Broadway Regular';
+    
 }
-input{
+.mesa{
+    margin-top: 50px;
+}
+.fecha{
     font-family: 'Broadway Regular';
     text-align: center;
+    margin-top: -1px;
     border-radius: 15px;
-    width: 200px;
+    width: 220px;
     height: 20px;
 }
-button{
-    border-radius: 15px;
-    height: 30px;
-    width: 50px;
-    margin-top: 20px;
-    font-size: 20;
-    font-family: 'Broadway Regular';
+
+.formulario input[type="checkbox"]{
+    display: none;
 }
+
+.formulario .caja label{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.formulario .caja label:hover{
+    color: $color;
+    background: #DB3EB1;
+}
+
+.formulario input[type="checkbox"]:checked + label{
+    color: $color;
+    background: #DB3EB1;
+}
+
 .btnResevarMesa{
     background-color: #41B6E6;
     margin-left: 65px;
     width: 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 20;
+    font-family: 'Broadway Regular';
 }
-button:hover, .btnResevarMesa:hover{
+
+.btnResevarMesa:hover{
     background-color: #DB3EB1;
 }
