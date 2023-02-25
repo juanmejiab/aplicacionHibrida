@@ -18,13 +18,8 @@ function crearEventos(){
     btnRegistrarse.addEventListener("click", registrar);
 }
 
-function enrutador(evento){
-    if(evento.target.id=="btnRegistrarse"){
-        location.href = secciones[0];
-    }
-    else{
-        location.href = secciones[1];
-    }    
+function enrutador(){
+    location.href = secciones[1];    
 }
 
 function registrar(){
