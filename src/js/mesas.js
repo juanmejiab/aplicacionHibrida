@@ -35,9 +35,11 @@ function reservar(){
     
     if (lMesas.length == 1 && fecha.value.length != 0){
         alert("Reserva exitosa! \nReservó la " + lMesas[0] + " para la fecha " + fecha.value);
+        location.href="contacto.html";
     }
     else if (lMesas.length == 2 && fecha.value.length != 0){
         alert("Reserva exitosa! \nReservó la " + lMesas[0] + " y la " + lMesas[1] + " para la fecha " + fecha.value);
+        location.href="contacto.html";
     }
     else if(fecha.value.length == 0){
         alert("Ingrese la fecha de la reserva");

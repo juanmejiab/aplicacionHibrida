@@ -1,0 +1,19 @@
+$color:black;
+body{
+    background-color: $color;
+}
+div{
+    width:330px;
+    height:500px;
+    overflow:auto;
+    text-align: center;
+    line-height: 4;
+}
+.logo{
+    margin-top: 50px;
+    width: 200px;
+}
+.instagram, .facebook, .whatsapp{
+    margin-top: 20px;
+    width: 75px;
+}
