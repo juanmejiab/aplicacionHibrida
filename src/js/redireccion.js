@@ -1,5 +1,5 @@
 window.onload = init;
 
 function init(){
-    location.href = 'src/index.html';
+    location.href = 'src/index.html'; 
 }
