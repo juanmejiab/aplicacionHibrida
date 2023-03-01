@@ -1,6 +1,5 @@
-$color:black;
 body{
-    background-color: $color;
+    background-color: black;
     font-family: 'Broadway Regular';
 }
 div{
@@ -54,18 +53,19 @@ p{
 }
 
 .formulario .caja label:hover{
-    color: $color;
+    color: black;
     background: #DB3EB1;
 }
 
 .formulario input[type="checkbox"]:checked + label{
-    color: $color;
+    color: black;
     background: #DB3EB1;
 }
 
 .btnResevarMesa{
     background-color: #41B6E6;
     margin-left: 65px;
+    height: 30px;
     width: 200px;
     border-radius: 15px;
     margin-top: 10px;
